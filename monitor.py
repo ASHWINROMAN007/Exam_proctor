@@ -12,7 +12,7 @@ FACE_MISSING_SECONDS = 2.0     # seconds of no-face before flag
 PHONE_CONF_THRESHOLD = 0.5
 VIDEO_SOURCE = 0               # 0 = default webcam
 LOG_CSV = "logs/violations.csv"
-YOLO_WEIGHTS = "yolov8n.pt" # default; change to your trained weights for headphones
+YOLO_WEIGHTS = "yolov8n.pt" # change to your trained weights for headphones
 # ------------------------------------
 
 os.makedirs("logs", exist_ok=True)
