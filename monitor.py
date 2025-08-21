@@ -8,7 +8,7 @@ import mediapipe as mp
 from ultralytics import YOLO
 
 # -------------- CONFIG --------------
-FACE_MISSING_SECONDS = 2.0     # seconds of no-face before flag
+FACE_MISSING_SECONDS = 2.0  # seconds of no-face before flag
 PHONE_CONF_THRESHOLD = 0.5
 VIDEO_SOURCE = 0               # 0 = default webcam
 LOG_CSV = "logs/violations.csv"
